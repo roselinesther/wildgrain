@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wild Grain Bakers | Homemade Bakers in Kodaikanal</title>
+  <meta name="description"
+    content="Wild Grain brings homemade goodness, baked with heart in Kodaikanal. Explore our menu and book your freshly baked treats.">
+  <meta name="Keywords" Content="Fresh ingredients, Best Bakery in Kodaikanal, Homemade Cakes in Kodaikanal">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header" id="home">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Wild Grain Bakers home">
+        <img src="logo.jpg" alt="Wild Grain Bakers logo">
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#why">Why Choose Us</a>
+        <a href="#menu">Menu</a>
+
+        <a class="nav-cta" href="#booking">Book Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">HOMEMADE BAKERS IN KODAIKANAL</span>
+          <h1>Wild Grain – <span>Homemade Bakers</span> in Kodaikanal</h1>
+          <p class="tagline">Homemade Goodness, Baked with Heart in Kodaikanal</p>
+          <p>At <strong>Wild Grain</strong>, we bring the warmth of homemade baking to Kodaikanal with freshly crafted
+            treats made in small batches and with genuine care. Our home bakers focus on thoughtful recipes, quality
+            ingredients, and flavours that make every bite feel comforting and memorable.</p>
+          <p>From beautifully baked favourites to indulgent <strong>flavoured</strong> treats, every creation is
+            prepared with the simplicity and personal touch that makes homemade food special. Whether you are
+            celebrating a birthday, sharing a quiet moment with family, or simply craving something freshly baked, Wild
+            Grain adds a little sweetness to the occasion.</p>
+          <p>Inspired by the charm of Kodaikanal and the growing appreciation for <strong>homemade</strong> food across
+            India, we believe great baking does not need to feel complicated. It should feel warm, personal, and made
+            especially for you.</p>
+          <p class="closing"><strong>Wild Grain</strong> — bringing the comfort of home baking to every memorable
+            moment.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#booking">Book Your Treats</a>
+            <a class="btn btn-outline" href="#menu">Explore Menu</a>
+          </div>
+        </div>
+
+        <div class="booking-card" id="booking">
+          <div class="card-top">
+            <span class="mini-label">FRESHLY BAKED FOR YOU</span>
+            <h2>Book Your Order</h2>
+            <p>Tell us what you're craving and we'll get back to you.</p>
+          </div>
+          <form id="bookingForm">
+            <label for="name">Your Name</label>
+            <input id="name" name="name" type="text" placeholder="Enter your name" required>
+
+            <label for="phone">Phone Number</label>
+            <input id="phone" name="phone" type="tel" placeholder="Enter your phone number" required>
+
+            <label for="treat">What would you like?</label>
+            <select id="treat" name="treat" required>
+              <option value="" selected disabled>Select an option</option>
+              <option>Custom Cake</option>
+              <option>Fresh Bakes</option>
+              <option>Cookies & Treats</option>
+              <option>Celebration Order</option>
+              <option>Something Special</option>
+            </select>
+
+            <label for="date">Preferred Date</label>
+            <input id="date" name="date" type="date">
+
+            <label for="message">Order Details</label>
+            <textarea id="message" name="message" rows="3" placeholder="Tell us about your order..."></textarea>
+
+            <button class="btn btn-primary submit-btn" type="submit">Book Now <span>→</span></button>
+            <p class="form-note">We’ll contact you to confirm availability and details.</p>
+            <div class="form-success" id="formSuccess" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="simple-section" id="about">
+      <div class="container narrow">
+
+        <div>
+          <span class="eyebrow">ABOUT US</span>
+
+          <h2>About Us</h2>
+
+          <p class="tagline">Baked with Love, Crafted with Passion</p>
+
+          <p>
+            Welcome to <strong>Wild Grain Bakehouse</strong>, where every bake is made
+            with care, creativity, and a love for the simple joy of good food.
+          </p>
+
+          <p>
+            We believe that the best bakery experiences begin with quality ingredients,
+            thoughtful recipes, and a little bit of heart. From freshly baked breads
+            and delicate pastries to indulgent cakes and delightful treats, each
+            creation is carefully handcrafted to bring warmth and happiness to every bite.
+          </p>
+
+          <p>
+            Inspired by the beauty of homemade baking and the charm of artisan
+            craftsmanship, <strong>Wild Grain Bakehouse</strong> brings together
+            comforting flavours, beautiful presentation, and timeless baking traditions.
+          </p>
+
+          <p>
+            Whether you're celebrating a special moment, sharing something sweet with
+            loved ones, or simply treating yourself, we're here to make every occasion
+            a little more delicious.
+          </p>
+
+          <p class="closing">
+            <strong>Wild Grain Bakehouse</strong> — where every bite is made with love.
+          </p>
+        </div>
+
+        <div>
+          <img src="home-bakers.webp" alt="Freshly baked treats from Wild Grain Bakehouse">
+        </div>
+
+      </div>
+    </section>
+
+    <section class="why-section" id="why">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="eyebrow">WHY CHOOSE US</span>
+          <h2>Why Choose Us?</h2>
+          <p>
+            Homemade baking with quality ingredients, creative flavours,
+            and a personal touch in every bite.
+          </p>
+        </div>
+
+        <div class="why-grid">
+
+          <div>
+            <span class="why-number">01</span>
+            <h3>Truly Homemade</h3>
+            <p>
+              At Wild Grain, our bakes are prepared with the warmth and personal
+              touch of homemade baking. Every recipe is thoughtfully made to bring
+              you comforting flavours and a fresh-from-the-kitchen experience.
+            </p>
+          </div>
+
+          <div>
+            <span class="why-number">02</span>
+            <h3>Freshly Made with Care</h3>
+            <p>
+              We believe good baking begins with quality ingredients and careful
+              preparation. Our homemade bakers give attention to every detail,
+              creating treats that are fresh, delicious, and made with genuine care.
+            </p>
+          </div>
+
+          <div>
+            <span class="why-number">03</span>
+            <h3>Made for Every Occasion</h3>
+            <p>
+              Whether you are celebrating a birthday, enjoying a family gathering,
+              or simply treating yourself, our bakes are created to make everyday
+              moments feel special.
+            </p>
+          </div>
+
+          <div>
+            <span class="why-number">04</span>
+            <h3>A Love for Creative Flavours</h3>
+            <p>
+              From familiar favourites to exciting flavoured creations, we enjoy
+              bringing variety to the table. Our approach combines simple homemade
+              goodness with ideas inspired by modern tastes.
+            </p>
+          </div>
+
+          <div>
+            <span class="why-number">05</span>
+            <h3>Inspired by Kodaikanal</h3>
+            <p>
+              Being a local baking business in Kodaikanal, we understand the charm
+              of sharing freshly made food in a beautiful hill-town setting. Our goal
+              is to make every order feel personal, warm, and memorable.
+            </p>
+          </div>
+
+          <div>
+            <span class="why-number">06</span>
+            <h3>Baked with Heart</h3>
+            <p>
+              For us, baking is more than a business. It is about creating something
+              that brings people together. At Wild Grain, every bake carries a little
+              piece of our passion, care, and love for homemade food.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================
+     BAKERY IMAGE SECTION
+========================================= -->
+
+<section class="bakery-image-section">
+  <div class="container bakery-image-wrap">
+    <img 
+      src="organic-home-bakers-in-kodaikanal.png" 
+      alt="Freshly baked homemade treats from Wild Grain Bakers"
+    >
+  </div>
+</section>
+
+    <!-- =========================================
+     MENU SECTION
+========================================= -->
+
+    <section class="menu-section" id="menu">
+      <div class="container menu-container">
+
+        <div class="section-heading menu-heading">
+          <span class="eyebrow">OUR MENU</span>
+
+          <h2>Freshly Baked Goodness</h2>
+
+          <p>
+            Explore our homemade cakes, cookies, breads, sweet treats,
+            and special creations, freshly prepared with love.
+          </p>
+        </div>
+
+        <div class="menu-poster">
+          <img src="menu-poster.png" alt="Wild Grain Bakers menu featuring cakes, cookies, breads and sweet treats">
+        </div>
+
+        <div class="menu-actions">
+          <a href="#booking" class="btn btn-primary">
+            Book Your Treats
+            <span>→</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+  <footer class="footer" id="contact">
+    <div class="container footer-wrap">
+      <div class="footer-brand">
+        <img src="logo.jpg" alt="Wild Grain Bakers logo">
+        <h3>Wild Grain Bakers</h3>
+        <p>Homemade goodness, baked with heart in Kodaikanal.</p>
+      </div>
+
+      <div class="footer-column" id="quick-links">
+        <h4>Quick Links</h4>
+        <nav class="footer-links" aria-label="Footer quick links">
+          <a href="#home">Home</a>
+          <a href="#about">About Us</a>
+          <a href="#menu">Menu</a>
+          <a href="#why">Why Choose Us</a>
+          <a href="#booking">Book Now</a>
+        </nav>
+      </div>
+
+      <div class="footer-column footer-contact" id="contact-us">
+        <h4>Contact Us</h4>
+        <p>Kodaikanal, Tamil Nadu</p>
+        <p>For orders and enquiries, use our booking form.</p>
+        <a class="footer-contact-link" href="#booking">Send an Enquiry →</a>
+      </div>
+
+      <a class="footer-button" href="#booking">Book Your Treats</a>
+    </div>
+    <div class="footer-bottom">© 2026 Wild Grain Bakers. Made with love.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
