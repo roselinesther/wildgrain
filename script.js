@@ -20,3 +20,7 @@ form?.addEventListener('submit', (event) => {
   success.textContent = `Thank you, ${name}! Your booking request has been received. We'll contact you to confirm the details.`;
   form.reset();
 });
+
+if (window.location.pathname === "/index.html") {
+window.location.replace("/");
+}
